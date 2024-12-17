@@ -5,15 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/lasagna.html">World's Best Lasagna Recipe</a></li>
-        <li><a href="./recipes/plougmans-sandwich.html">Ploughman’s Sandwich</a></li>
-        <li><a href="./recipes/linzer-cookies.html">Linzer Cookies</a></li>
-    </ul>
+    <div class="container">
+        <p class="container-title">Odin Recipes</p>
+        <div class="gradient-cards">
+            <div class="card">
+                <a href="./recipes/lasagna.html" class="card-link">
+                    <div class="container-card bg-green-box">
+                        <div class="icon">
+                            <img src="./images/lasagna.png" alt="lasagna icon">
+                        </div>
+                        <p class="card-title">World's Best Lasagna Recipe</p>
+                        <p class="card-description">This lasagna recipe takes a little work, but it is so satisfying and
+                            filling that it's worth it!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="./recipes/plougmans-sandwich.html" class="card-link">
+                    <div class="container-card bg-yellow-box">
+                        <div class="icon">
+                            <img src="./images/sandwich.png" alt="Ploughman’s sandwich icon">
+                        </div>
+                        <p class="card-title">Ploughman’s Sandwich</p>
+                        <often class="card-description">This ploughman’s sandwich recalls the classic British
+                            ploughman's cold meal,
+                            often eaten for laborers’ midday break when working in the fields. These days it’s a popular
+                            lunch served in UK pubs.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="./recipes/linzer-cookies.html" class="card-link">
+                    <div class="container-card bg-blue-box">
+                        <div class="icon">
+                            <img src="./images/cookies.png" alt="cookies icon">
+                        </div>
+                        <p class="card-title">Linzer Cookies</p>
+                        <p class="card-description">Linzer cookies are buttery cut-out cookies with a raspberry jam
+                            center. They require a bit of extra effort to make and assemble,
+                            but the delight of family and friends when serving these delicious cookies makes them all
+                            worthwhile. They look beautiful on a Christmas cookie tray!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
